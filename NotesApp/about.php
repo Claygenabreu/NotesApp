@@ -71,7 +71,6 @@ include('logout.php');
     <!--Jumbotron with Sign up Button-->
       <div class="jumbotron" id="myContainer">
           <h1>Online Notes App</h1>
-          <h2>Your Notes with you wherever you go. Easy to use, protects all your notes!</h2>
           <h4>We the <i>'Creative work imparts beauty'</i> has come together to build this app to make easier the life of our clients or whoever accesses this app when it comes to store their notes in a safe place like this and access them whenever they want! We appreciate and thank you for being part of us and do enjoy using this App! </h4>
       </div>
 
