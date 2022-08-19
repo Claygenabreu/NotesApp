@@ -32,7 +32,7 @@ if(!$result){
 }else{
   //send email with link to activatenewemail.php with current email, new email and activation code
   $message = "Please click on this link to prove that you own the email address:\n\n";
-$message .= "http://claygen.host20.uk/NotesApp/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
+$message .= "https://claygenabreu.in/NotesApp/activatenewemail.php?email=" . urlencode($email) . "&newemail=" . urlencode($newemail) . "&key=$activationKey";
 if(mail($newemail, 'Email update for your Online Notes App', $message, 'From:'.'claygenabreu@gmail.com')){
    echo "<div class='alert alert-success'>An email has been sent to $newemail. Please click on the activation link to prove that you won that email address.</div>"; 
    
