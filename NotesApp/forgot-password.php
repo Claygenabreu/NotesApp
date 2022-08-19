@@ -58,7 +58,7 @@ if(!$result){
 }
 //Send emails with a link to resetpassword.php with user id and activation code
 $message = "Please click on this link to reset your password:\n\n";
-$message .= "http://claygen.host20.uk/NotesApp/resetpassword.php?user_id=$user_id&key=$key";
+$message .= "https://claygenabreu.in/NotesApp/resetpassword.php?user_id=$user_id&key=$key";
 if(mail($email, 'Reset your password', $message, 'From:'.'claygenabreu@gmail.com')){
   // If email sent successfully
 //print "success"
