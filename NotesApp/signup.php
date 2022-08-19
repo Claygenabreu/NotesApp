@@ -107,7 +107,7 @@ if(!$result){
 }
 //   Send the user an email with a link to activate.php with their email and activation code
 $message = "Please click on this link to activate your account:\n\n";
-$message .= "http://claygen.host20.uk/NotesApp/activate.php?email=" . urlencode($email) . "&key=$activationKey";
+$message .= "https://claygenabreu.in/NotesApp/activate.php?email=" . urlencode($email) . "&key=$activationKey";
 if(mail($email, 'Confirm your registration', $message, 'From:'.'claygenabreu@gmail.com')){
    echo "<div class='alert alert-success'>Thank you for your registration! A confirmation email has been sent to $email. Please click on the activation link to activate your account.</div>"; 
    
